@@ -1,0 +1,25 @@
+$blue: #341cac;
+
+.cardiv{
+
+position: absolute;
+left: 25%;
+top: 15%;
+
+}
+
+  
+.body  button {
+    border: none;
+    box-shadow: none;
+    font-family: inherit;
+    background-color:transparent;
+    color: $blue;
+    font-size: 15px;
+    transition:.25s;
+    height: 10%;
+    
+
+  }
+ 
+

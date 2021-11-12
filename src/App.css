@@ -1,0 +1,214 @@
+
+.homeapp::after {
+  content: "";
+  background-image: url("https://zanrayfuel.co.za/wp-content/uploads/2017/06/zanray-fuel-website-background.jpg");
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  background-size: cover;
+}
+
+#nav1{
+
+  padding-left: 2%;
+
+
+}
+
+
+
+#nav1:hover{
+
+ color: rgb(2, 2, 114);
+
+}
+
+#form_card{
+
+margin-left: 60%;
+margin-top: 5%;
+width: 30%;
+margin-bottom: 40px;
+
+}
+
+#txt{
+position: absolute;
+left: 20%;
+top: 40%;
+
+
+}
+
+#txth2{
+  color:chocolate;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 50px;
+
+
+}
+
+
+
+.cardinfo{
+
+float: left;
+margin-top: 30px;
+margin-left: 40px;
+width:45%;
+margin-bottom: 25px;
+}
+
+
+.service{
+padding-left: 25px;
+padding-right: 25px;
+width: 100%;
+padding-bottom: 65px;
+padding-top: 40px;
+background-color: black;
+}
+
+#btn{
+
+float: right;
+margin-top: 20px;
+
+}
+
+
+.service .card-body{
+
+height: 200px;
+
+}
+
+.service .card-title{
+
+color: brown;
+
+}
+
+
+
+.navr {
+ 
+  top: 55px;
+  width: 20%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  z-index: 999;
+}
+
+ul{
+  padding: 0;
+  list-style-type: none;
+}
+
+#date a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  pointer-events: none;
+}
+
+#date a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+.icon{
+ padding-left: 40%;
+}
+
+
+.imgdata{
+
+flex:1;
+margin-right: 20px;
+
+}
+.imgdata > img{
+
+width: 250px;
+height: 150px;
+
+}
+
+.data{
+
+flex:2;
+margin-top:20px;
+
+}
+
+.data2{
+flex: 3;
+margin-top:25px;
+color: brown;
+
+}
+
+.Cbody::after{
+content: "";
+background:#F1FAEE;
+opacity: 0.5;
+position: absolute;
+bottom: 0;
+top:0;
+left:0;
+right: 0;
+z-index: -1;   
+background-size: cover;
+
+}
+
+
+
+
+.auth-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  margin-right:50%;
+  border-right: 2px solid black;
+}
+
+
+.auth-inner {
+  width: 450px;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all .3s;
+}
+
+.auth-wrapper h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+
+}
+
+
+.Cbody .lni{
+
+position:absolute;
+left:65%;
+top:30%;
+font-size: 300px;
+
+}
+
+
